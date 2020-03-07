@@ -2,7 +2,6 @@
 
 Project for WEB-Design 2020
 
-Deployed with:
 ![alt_text](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png)
 
 Must use:
@@ -12,8 +11,8 @@ Must use:
 4. Flex or grid for layouts
  
 Requirements
-- [ ] Host the code as on GitHub
-- [ ] Host the site itself on free services like github sites for easy preview
+- [x] Host the code as on GitHub
+- [x] Host the site itself on free services like github sites for easy preview
 - [ ] Must style at least 5 different layouts for the site
 - [ ] Must have a page that showcases styles for standard HTML elements
 - [ ] Must have two or more levels deep drop down menu in the header
