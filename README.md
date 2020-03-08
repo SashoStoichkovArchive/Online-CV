@@ -5,10 +5,10 @@ Project for WEB-Design 2020
 ![alt_text](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png)
 
 Must use:
-1. Gulp build setup
-2. Sass for source files
-3. If JS - ES6+ with Babel
-4. Flex or grid for layouts
+1. - [x] Gulp build setup
+2. - [x] Sass for source files
+3. - [ ] If JS - ES6+ with Babel
+4. - [ ] Flex or grid for layouts
  
 Requirements
 - [x] Host the code as on GitHub
