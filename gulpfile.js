@@ -1,16 +1,16 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cssbeautify = require('gulp-cssbeautify');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const cssbeautify = require('gulp-cssbeautify');
 
-var useref = require('gulp-useref');
-var uglify = require('gulp-uglify');
-var gulpIf = require('gulp-if');
-var cssnano = require('gulp-cssnano');
+const useref = require('gulp-useref');
+const uglify = require('gulp-uglify');
+const gulpIf = require('gulp-if');
+const cssnano = require('gulp-cssnano');
 
-var imagemin = require('gulp-imagemin');
-var cache = require('gulp-cache');
+const imagemin = require('gulp-imagemin');
+const cache = require('gulp-cache');
 
-var del = require('del');
+const del = require('del');
 
 gulp.task('watch', function(){
   gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'));
