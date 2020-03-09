@@ -1,5 +1,5 @@
 <?php
-    foreach (glob("dist/*") as $filename) {
+    foreach (glob("dist/**/*") as $filename) {
         include $filename;
     }
 ?>
