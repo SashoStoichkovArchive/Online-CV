@@ -17,6 +17,7 @@ gulp.task('watch', function(){
   gulp.watch('app/*.html', gulp.parallel('useref'));
   gulp.watch('app/images/**/*.+(png|jpg|jpeg|gif|svg)', gulp.parallel('images'));
   gulp.watch('app/fonts/**/*', gulp.parallel('fonts'));
+  gulp.watch('app/favicon.ico', gulp.parallel('favicon'));
 })
 
 gulp.task('sass', function() {
@@ -52,8 +53,13 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 })
 
+gulp.task('favicon', function() {
+  return gulp.src('app/favicon.ico')
+    .pipe(gulp.dest('dist/'))
+})
+
 gulp.task('clean:dist', function() {
   return del.sync('dist');
 })
 
-gulp.task('default', gulp.parallel('clean:dist', 'watch', 'useref', 'images', 'fonts'));
+gulp.task('default', gulp.parallel('clean:dist', 'watch', 'useref', 'images', 'fonts', 'favicon'));
