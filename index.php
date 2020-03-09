@@ -1,9 +1,9 @@
 <?php
-    readfile("dist/index.html");
-    readfile("dist/css/styles.min.css");
-    readfile("dist/js/scripts.min.js");
+    include_once("dist/index.html");
+    include_once("dist/css/styles.min.css");
+    include_once("dist/js/scripts.min.js");
 
-    // foreach (glob("dist/images/*") as $filename){
-    //     include $filename;
-    // }
+    foreach (glob("dist/images/*") as $filename){
+        include_once($filename);
+    }
 ?>
