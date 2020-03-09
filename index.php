@@ -30,4 +30,4 @@
     // }
 ?>
 
-<?php include_once("dist/home.html"); ?>
+<?php include_once("home.html"); ?>
