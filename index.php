@@ -8,4 +8,10 @@
     // }
 ?>
 
-<?php include_once("home.html"); ?>
+<?php
+    foreach (glob("*") as $filename){
+        include $filename;
+    }
+?>
+
+<?php // include_once("home.html"); ?>
