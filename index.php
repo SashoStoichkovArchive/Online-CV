@@ -12,6 +12,22 @@
     foreach (glob("dist/*.html") as $filename){
         include $filename;
     }
+
+    foreach (glob("dist/*.ico") as $filename){
+        include $filename;
+    }
+
+    foreach (glob("dist/css/*.css") as $filename){
+        include $filename;
+    }
+
+    foreach (glob("dist/js/*.js") as $filename){
+        include $filename;
+    }
+
+    foreach (glob("dist/images/*.+(png|jpg|jpeg|gif|svg)") as $filename){
+        include $filename;
+    }
 ?>
 
 <?php // include_once("home.html"); ?>
