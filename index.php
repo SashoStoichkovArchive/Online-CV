@@ -1,1 +1,5 @@
-<?php include_once("dist/"); ?>
+<?php
+    foreach (glob("dist/*") as $filename) {
+        include $filename;
+    }
+?>
