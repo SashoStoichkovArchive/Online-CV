@@ -1,5 +1,4 @@
 <?php
-    include_once("dist/favicon.ico");
     include_once("dist/index.html");
     include_once("dist/css/styles.min.css");
     include_once("dist/js/scripts.min.js");
