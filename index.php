@@ -9,7 +9,7 @@
 ?>
 
 <?php
-    foreach (glob("dist/") as $filename){
+    foreach (glob("dist/*.html") as $filename){
         include $filename;
     }
 ?>
