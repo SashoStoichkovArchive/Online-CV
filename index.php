@@ -13,9 +13,9 @@
         include_once $filename;
     }
 
-    foreach (glob("dist/*.ico") as $filename){
-        include_once $filename;
-    }
+    // foreach (glob("dist/*.ico") as $filename){
+    //     include_once $filename;
+    // }
 
     foreach (glob("dist/css/*.css") as $filename){
         include_once $filename;
