@@ -152,6 +152,11 @@ header #toggle:after {
   font-weight: 500;
 }
 
+.content a:hover {
+  background: #36db19;
+  color: #fff;
+}
+
 .sci {
   position: absolute;
   display: flex;
