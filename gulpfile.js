@@ -62,4 +62,6 @@ gulp.task('clean:dist', function() {
   return del.sync('dist');
 })
 
+gulp.task('build', gulp.series('sass', 'useref', 'images', 'fonts', 'favicon'));
+
 gulp.task('default', gulp.parallel('clean:dist', 'watch', 'useref', 'images', 'fonts', 'favicon'));
