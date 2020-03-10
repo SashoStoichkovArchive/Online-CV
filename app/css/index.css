@@ -191,6 +191,7 @@ header #toggle:after {
 
   .banner {
     padding: 100px 50px 150px;
+    background-position: center;
   }
 
   .banner h2 {
