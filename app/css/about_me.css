@@ -4,11 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: url("../images/about_me.jpg");
-  background-size: cover;
-  background-position: center;
   min-height: 100vh;
-  top: 50px;
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 header {
@@ -44,6 +44,32 @@ header #nav ul {
 
 header #nav ul li {
   list-style: none;
+  position: relative;
+}
+
+header #nav ul li.sub-menu:before {
+  content: '\f0d7';
+  position: absolute;
+  font-family: fontAwesome;
+  line-height: 50px;
+  color: #fff;
+  right: 5px;
+}
+
+header #nav ul li ul {
+  position: absolute;
+  left: 0;
+  background: #36db19;
+  display: none;
+}
+
+header #nav ul li:hover ul {
+  display: block;
+}
+
+header #nav ul li ul li {
+  display: block;
+  width: 200px;
 }
 
 header #nav ul li a {
@@ -71,6 +97,10 @@ header #nav ul li a.active {
 }
 
 @media (max-width: 1110px) {
+  body {
+    background-position: center;
+  }
+
   header {
     padding: 0 20px;
   }
@@ -98,11 +128,24 @@ header #nav ul li a.active {
     text-align: center;
   }
 
+  header #nav ul li.sub-menu:before {
+    right: 20px;
+  }
+
   header #nav ul li a {
     border-bottom: 1px solid #eff316;
   }
 
   header #nav ul li:first-child a {
     border-top: 1px solid #eff316;
+  }
+
+  header #nav ul li:hover ul {
+    position: relative;
+    background: #16f321;
+  }
+
+  header #nav ul li ul li {
+    width: 100%;
   }
 }
