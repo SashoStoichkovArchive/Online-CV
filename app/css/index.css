@@ -118,6 +118,7 @@ header #toggle:after {
   font-size: 2em;
   font-weight: 600;
   text-transform: uppercase;
+  padding-left: 15px;
 }
 
 .content {
