@@ -16,6 +16,13 @@ body {
   align-items: center;
 }
 
+h2 {
+  position: absolute;
+  color: #36db19;
+  top: 200px;
+  font-size: 5em;
+}
+
 .container {
   position: relative;
   width: 1000px;
@@ -115,11 +122,16 @@ body {
 }
 
 @media (max-width: 1000px) {
+  h2 {
+    top: 50px;
+    font-size: 2.5em;
+  }
+
   .container {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    top: 0;
+    top: 60px;
   }
 
   .container .card {
