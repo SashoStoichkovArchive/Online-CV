@@ -9,6 +9,7 @@ header {
 	width: 100%;
 	box-sizing: border-box;
 	transition: 0.5s;
+	z-index: 1;
 }
 
 header .logo {
@@ -86,10 +87,6 @@ header #nav ul li a.active {
 }
 
 @media (max-width: 1110px){
-	body {
-		background-position: center;
-	}
-
 	header {
 		padding: 0 20px;
 	}

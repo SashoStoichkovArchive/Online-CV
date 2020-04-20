@@ -10,3 +10,9 @@ body {
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 1110px) {
+  body {
+    background-position: center;
+  }
+}
