@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 header {
@@ -74,6 +75,7 @@ header #toggle:after {
   padding: 100px;
   background: url("../images/backgrounds/bg.jpg");
   background-size: cover;
+  background-position: center top;
   display: flex;
   align-items: center;
   transition: 0.5s;
@@ -109,6 +111,7 @@ header #toggle:after {
 
 #navigation ul li {
   list-style: none;
+  padding: 5px;
 }
 
 #navigation ul li a {
@@ -118,7 +121,14 @@ header #toggle:after {
   font-size: 2em;
   font-weight: 600;
   text-transform: uppercase;
-  padding-left: 15px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+#navigation ul li a:hover {
+  background: #1b7c0a;
+  font-size: 2.2em;
+  transition: 0.5s;
 }
 
 .content {
@@ -151,11 +161,13 @@ header #toggle:after {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 500;
+  transition: 0.5s;
 }
 
 .content a:hover {
   background: #36db19;
   color: #fff;
+  transition: 0.5s;
 }
 
 .sci {
@@ -173,21 +185,20 @@ header #toggle:after {
   position: relative;
   display: grid;
   place-items: center;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   text-decoration: none;
-  border: 5px solid #36db19;
   margin: 10px 0 0;
 }
 
-.sci li a:hover {
-  background: #fff;
+.sci li a img {
+  max-width: 50px;
+  transition: 0.2s;
 }
 
-.sci li a img {
-  max-width: 20px;
-  filter: invert(1);
-  mix-blend-mode: difference;
+.sci li a:hover img {
+  max-width: 60px;
+  transition: 0.2s;
 }
 
 @media (max-width: 860px) {
@@ -197,6 +208,7 @@ header #toggle:after {
 
   .banner {
     padding: 100px 50px 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/bg.jpg");
     background-position: center;
   }
 

@@ -9,10 +9,11 @@ body {
 	background-size: cover;
 	display: flex;
 	align-items: center;
+	-webkit-tap-highlight-color: transparent;
 }
 
-@media (max-width: 1110px){
+@media (max-width: 1240px){
 	body {
-		background-position: center;
+		background-position: center top;
 	}
 }

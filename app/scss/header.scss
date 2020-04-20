@@ -43,7 +43,7 @@ header #nav ul li.sub-menu:before {
 	font-family: fontAwesome;
 	line-height: 50px;
 	color: #fff;
-	right: 5px;
+	right: 10px;
 }
 
 header #nav ul li ul {
@@ -65,7 +65,7 @@ header #nav ul li ul li {
 header #nav ul li a {
 	height: 50px;
 	line-height: 50px;
-	padding: 0 20px;
+	padding: 0 25px;
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -86,7 +86,7 @@ header #nav ul li a.active {
 	display: none;
 }
 
-@media (max-width: 1110px){
+@media (max-width: 1240px){
 	header {
 		padding: 0 20px;
 	}
@@ -101,12 +101,12 @@ header #nav ul li a.active {
 		height: calc(100vh - 50px);
 		background: #36db19;
 		top: 50px;
-		left: -100%;
+		right: -100%;
 		transition: 0.5s;
 	}
 
 	header #nav.active {
-		left: 0;
+		right: 0;
 	}
 
 	header #nav ul {
@@ -119,16 +119,16 @@ header #nav ul li a.active {
 	}
 
 	header #nav ul li a {
-		border-bottom: 1px solid #eff316;
+		border-bottom: 1px solid #fff;
 	}
 
 	header #nav ul li:first-child a {
-		border-top: 1px solid #eff316;
+		border-top: 1px solid #fff;
 	}
 
 	header #nav ul li:hover ul {
 		position: relative;
-		background: #16f321;
+		background: #34be1c;
 	}
 
 	header #nav ul li ul li {
