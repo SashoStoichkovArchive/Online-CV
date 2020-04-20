@@ -101,12 +101,14 @@ header #nav ul li a.active {
 		height: calc(100vh - 50px);
 		background: #36db19;
 		top: 50px;
-		right: -100%;
 		transition: 0.5s;
+		display: none;
+		transform: translateX(100%);
 	}
 
 	header #nav.active {
-		right: 0;
+		display: block;
+		transform: translateX(-20px);
 	}
 
 	header #nav ul {
