@@ -10,7 +10,7 @@
 
 body {
   min-height: 100vh;
-  background: url("../images/backgrounds/programming.jpeg");
+  background: url("../images/backgrounds/programming.png");
   background-size: cover;
   display: flex;
   justify-content: center;

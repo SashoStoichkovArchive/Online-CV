@@ -18,6 +18,7 @@ header {
 	padding: 40px 100px;
 	z-index: 10000;
 	transition: 0.6s;
+	align-items: center;
 }
 
 header .logo {
@@ -127,7 +128,7 @@ header #toggle:after {
 
 #navigation ul li a:hover {
 	background: #1b7c0a;
-	font-size: 2.2em;
+	transform: scale(1.01);
 	transition: 0.5s;
 }
 
@@ -167,7 +168,7 @@ header #toggle:after {
 .content a:hover {
 	background: #36db19;
 	color: #fff;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 .sci {
