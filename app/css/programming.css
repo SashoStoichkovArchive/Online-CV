@@ -114,6 +114,12 @@ body {
   background: #333;
   text-decoration: none;
   color: #fff;
+  transition: 0.5s;
+}
+
+.container .card .content a:hover {
+  transform: scale(1.25);
+  transition: 0.5s;
 }
 
 @media (max-width: 1000px) {
