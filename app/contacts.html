@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CV - Contact Me</title>
+
+	<!--build:js js/contacts.min.js -->
+		<script src="js/header.js"></script>
+	<!-- endbuild -->
+
+	<!--build:css css/contacts.min.css-->
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/contacts.css">
+	<!--endbuild-->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo"><img src="./images/logos/logo_white.png" alt=""></a>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about_me.html">About Me</a></li>
+				<li class="sub-menu"><a href="#">Education</a>
+					<ul>
+						<li><a href="#">Primary School</a></li>
+						<li><a href="#">Secondary School</a></li>
+					</ul>
+				</li>
+				<li class="sub-menu"><a href="programming.html">Programming Skills</a>
+					<ul>
+						<li><a href="#">Python</a></li>
+						<li><a href="#">Java</a></li>
+						<li><a href="#">C/C++</a></li>
+						<li><a href="#">Markup</a></li>
+					</ul>
+				</li>
+				<li class="sub-menu"><a href="#">Voluntary Experience</a>
+					<ul>
+						<li><a href="#">HackConf</a></li>
+						<li><a href="#">OpenFest</a></li>
+						<li><a href="#">TUES & AZTUES</a></li>
+					</ul>
+				</li>
+				<li><a href="" class="active">Contact Me</a></li>
+			</ul>
+		</div>
+		<div class="menu-toggle" onclick="toggle_menu()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="contactInfo">
+				<div>
+					<h2>Contact Info</h2>
+					<ul class="info">
+						<li>
+							<a href="https://goo.gl/maps/sEmuS65cN5SiFwT86">
+								<span><img src="images/social/bulgaria.png"></span>
+								<span>
+									ул. „Дон“ 3<br>
+									1614 кв. Горна баня<br>
+									София
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:sashostoichkov@gmail.com">
+								<span><img src="images/social/mail.png"></span>
+								<span>sashostoichkov@gmail.com</span>
+							</a>
+						</li>
+						<li>
+							<span><img src="images/social/phone.png"></span>
+							<span>+359 885 816 862</span>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="sci">
+					<li><a href="https://www.facebook.com/sasho100ichkov"><img src="images/social/facebook.png" alt="facebook"></a></li>
+					<li><a href="https://github.com/SashoStoichkov"><img src="images/social/github.png" alt="github"></a></li>
+					<li><a href="https://www.linkedin.com/in/sasho100ichkov"><img src="images/social/linkedin.png" alt="linkedin"></a></li>
+				</ul>
+			</div>
+
+			<form action="https://formspree.io/sashostoichkov@gmail.com" class="contactForm" method="POST">
+				<h2>Send a Message</h2>
+				<div class="formBox">
+					<div class="inputBox w50">
+						<input type="text" name="_fname" required>
+						<span>First Name</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="text" name="_lname" required>
+						<span>Last Name</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="text" name="email" required>
+						<span>Email Address</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="text" name="_phone" required>
+						<span>Phone Number</span>
+					</div>
+					<div class="inputBox w100">
+						<textarea name="" required></textarea>
+						<span>Write your message here...</span>
+					</div>
+					<div class="inputBox w100"><input type="submit" value="Send"></div>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+</html>

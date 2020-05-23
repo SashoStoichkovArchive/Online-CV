@@ -60,6 +60,7 @@ header #nav ul li:hover ul {
 header #nav ul li ul li {
 	display: block;
 	width: 200px;
+	z-index: 1;
 }
 
 header #nav ul li a {
