@@ -216,6 +216,10 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 1240px) {
+	body {
+		min-height: 100vh;
+	}
+
 	section {
 		width: 100vw;
 		max-height: 100%;
