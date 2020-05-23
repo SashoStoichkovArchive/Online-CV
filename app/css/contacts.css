@@ -22,7 +22,7 @@ section::before {
   top: 0;
   left: 0;
   width: 50%;
-  height: 100%;
+  height: 100vh;
   background: #112d42;
 }
 
@@ -213,4 +213,57 @@ section .container .contactForm .formBox .inputBox input[type="submit"] {
 
 section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
   background: #29a513;
+}
+
+@media (max-width: 1240px) {
+  section {
+    width: 100vw;
+    max-height: 100%;
+  }
+
+  section .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section .container .contactForm {
+    margin-left: 0;
+    padding: 5px;
+    padding-top: 60px;
+    margin-top: 500px;
+    max-width: 80vw;
+    align-items: center;
+    height: calc(100% - 60px);
+  }
+
+  section .container .contactForm h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  section .container {
+    max-width: 290px;
+  }
+
+  section .container .contactInfo .info li span:nth-child(1) img,
+  section .container .contactInfo .info li span:nth-child(2),
+  section .container .contactInfo .sci li a img {
+    opacity: 1;
+  }
+
+  section .container .contactForm {
+    height: calc(100% + 60px);
+  }
+
+  section .container .contactForm .formBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section .container .contactForm .formBox .inputBox.w50 {
+    width: 100%;
+  }
 }

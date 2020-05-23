@@ -9,7 +9,7 @@ header {
   width: 100%;
   box-sizing: border-box;
   transition: 0.5s;
-  z-index: 1;
+  z-index: 1000;
 }
 
 header .logo {
