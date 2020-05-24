@@ -219,9 +219,14 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 1240px) {
+	section {
+		max-height: 100vh;
+	}
+
 	section .container {
 		min-width: 100vw;
 		min-height: 100vh;
+		margin: 0;
 		flex-direction: column;
 		align-items: center;
 	}
@@ -229,6 +234,7 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 	section .container .contactInfo {
 		height: 20vh;
 		padding: 10px;
+		margin-top: 30px;
 	}
 
 	section .container .contactInfo h2 {
@@ -283,7 +289,7 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 @media (max-width: 500px) {
 	section .container .contactForm {
 		margin-top: 250px;
-		height: 60vh;
+		height: 65vh;
 	}
 
 	section .container .contactForm .formBox {
