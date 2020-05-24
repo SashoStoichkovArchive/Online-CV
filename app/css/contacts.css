@@ -216,17 +216,13 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 1240px) {
-  body {
+  section {
+    min-width: 100vw;
     min-height: 100vh;
   }
 
-  section {
-    width: 100vw;
-    max-height: 100%;
-  }
-
   section .container {
-    width: 100%;
+    min-width: 100vw;
     flex-direction: column;
     align-items: center;
   }
@@ -248,10 +244,6 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 500px) {
-  section .container {
-    max-width: 290px;
-  }
-
   section .container .contactInfo .info li span:nth-child(1) img,
   section .container .contactInfo .info li span:nth-child(2),
   section .container .contactInfo .sci li a img {
