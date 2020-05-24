@@ -53,12 +53,15 @@ section .container .contactInfo {
 section .container .contactInfo h2 {
   color: #fff;
   font-size: 35px;
-  font-weight: 650;
+  font-weight: 600;
 }
 
 section .container .contactInfo .info {
   position: relative;
   margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 section .container .contactInfo .info li {
@@ -216,25 +219,59 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 1240px) {
-  section {
-    min-width: 100vw;
-    min-height: 100vh;
-  }
-
   section .container {
     min-width: 100vw;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
   }
 
+  section .container .contactInfo {
+    height: 20vh;
+    padding: 10px;
+  }
+
+  section .container .contactInfo h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  section .container .contactInfo .info {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  section .container .contactInfo .info li {
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  section .container .contactInfo .info li span:nth-child(2) {
+    display: none;
+  }
+
+  section .container .contactInfo .sci {
+    justify-content: space-between;
+  }
+
+  section .container .contactInfo .sci li {
+    margin-right: 0;
+  }
+
+  section .container .contactInfo .info li span:nth-child(1) img,
+  section .container .contactInfo .sci li a img {
+    opacity: 1;
+  }
+
   section .container .contactForm {
     margin-left: 0;
-    padding: 5px;
-    padding-top: 60px;
-    margin-top: 500px;
-    max-width: 80vw;
+    padding: 10px;
+    margin-top: 300px;
+    min-width: 90vw;
     align-items: center;
-    height: calc(100% - 60px);
+    height: 50vh;
   }
 
   section .container .contactForm h2 {
@@ -244,14 +281,9 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
 }
 
 @media (max-width: 500px) {
-  section .container .contactInfo .info li span:nth-child(1) img,
-  section .container .contactInfo .info li span:nth-child(2),
-  section .container .contactInfo .sci li a img {
-    opacity: 1;
-  }
-
   section .container .contactForm {
-    height: calc(100% + 60px);
+    margin-top: 250px;
+    height: 60vh;
   }
 
   section .container .contactForm .formBox {
