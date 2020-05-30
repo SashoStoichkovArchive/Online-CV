@@ -1,12 +1,16 @@
-# WEB_design_project
+# Online CV
 
-## This site is hosted on ...
-![Hosted on Heroku](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png "Hosted on Heroku")
+## Purpose
+The main purpose of this project is to become personal online CV for me to use in my future career. I'll be adding more information about me and about everything I do. I could also add a BLOG section.
 
 ## Screenshots
 ![Landing page](./screenshots/landing_page.png "Landing page")
 ![Programming skills](./screenshots/programming_skills_page.png "Programming skills")
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
+
+
+## This site is hosted on ...
+![Hosted on Heroku](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png "Hosted on Heroku")
 
 <details><summary>Requirements</summary>
 
@@ -26,7 +30,7 @@
 - [x] Must have realistic content. Your site has to be useful in some way, no lorem ipsum.
 - [x] Must have well formatted code - 4 tab size indentation.
 - [x] Must use proper HTML5 semantic tags
-- [ ] Must have proper README.md in the repository that explains the project and provides a screenshot from the homepage.
+- [x] Must have proper README.md in the repository that explains the project and provides a screenshot from the homepage.
 - [ ] Class names must be lower case, dash separated
 
 ### Bonus points:
