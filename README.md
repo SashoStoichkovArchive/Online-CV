@@ -23,7 +23,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ### Requirements
 - [x] Host the code as on GitHub
 - [x] Host the site itself on free services like github sites for easy preview
-- [ ] Must style at least 5 different layouts for the site - currently 4
+- [ ] Must style at least 5 different layouts for the site - currently having 4
 - [x] Must have a page that showcases styles for standard HTML elements
 - [x] Must be responsive (no horizontal scrolls on any viewport)
 - [x] Must get no errors or warnings from the HTML5 Validator
