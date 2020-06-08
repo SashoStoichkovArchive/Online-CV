@@ -17,7 +17,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ### Must use:
 1. - [x] Gulp build setup
 2. - [x] Sass for source files
-3. - [ ] If JS - ES6+ with Babel
+3. - [x] If JS - ES6+ with Babel
 4. - [x] Flex for layouts
 
 ### Requirements
@@ -32,7 +32,7 @@ The main purpose of this project is to become personal online CV for me to use i
 - [x] Must have well formatted code - 4 tab size indentation.
 - [x] Must use proper HTML5 semantic tags
 - [x] Must have proper README.md in the repository that explains the project and provides a screenshot from the homepage.
-- [ ] Class names must be lower case, dash separated
+- [x] Class names must be lower case, dash separated
 
 ### Bonus points:
 Bonus points will add to your final score if you are off by a little:
