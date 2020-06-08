@@ -10,14 +10,12 @@ const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
 const cache = require('gulp-cache');
 
-const del = require('del');
-
-gulp.task('watch', function(){
-  gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'));
-  gulp.watch('app/*.html', gulp.parallel('useref'));
-  gulp.watch('app/images/**/*.+(png|jpg|jpeg|gif|svg)', gulp.parallel('images'));
-  gulp.watch('app/fonts/**/*', gulp.parallel('fonts'));
-  gulp.watch('app/favicon.ico', gulp.parallel('favicon'));
+gulp.task('default', function(){
+  gulp.watch('app/scss/**/*.scss', gulp.parallel('build'));
+  gulp.watch('app/*.html', gulp.parallel('build'));
+  gulp.watch('app/images/**/*.+(png|jpg|jpeg|gif|svg)', gulp.parallel('build'));
+  gulp.watch('app/fonts/**/*', gulp.parallel('build'));
+  gulp.watch('app/favicon.ico', gulp.parallel('build'));
 })
 
 gulp.task('sass', function() {
@@ -58,10 +56,4 @@ gulp.task('favicon', function() {
     .pipe(gulp.dest('dist/'))
 })
 
-gulp.task('clean:dist', function() {
-  return del.sync('dist');
-})
-
 gulp.task('build', gulp.series('sass', 'useref', 'images', 'fonts', 'favicon'));
-
-gulp.task('default', gulp.parallel('clean:dist', 'watch', 'useref', 'images', 'fonts', 'favicon'));
