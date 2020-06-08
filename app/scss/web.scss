@@ -9,6 +9,10 @@ body {
 	-webkit-tap-highlight-color: transparent;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 .entry-content {
 	margin-top: 50px;
 }
