@@ -17,7 +17,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ### Must use:
 1. - [x] Gulp build setup
 2. - [x] Sass for source files
-3. - [x] If JS - ES6+ with Babel
+3. - [ ] If JS - ES6+ with Babel
 4. - [x] Flex for layouts
 
 ### Requirements
@@ -25,6 +25,7 @@ The main purpose of this project is to become personal online CV for me to use i
 - [x] Host the site itself on free services like github sites for easy preview
 - [ ] Must style at least 5 different layouts for the site - currently having 4
 - [x] Must have a page that showcases styles for standard HTML elements
+- [ ] Must have two or more levels deep drop down menu in the header
 - [x] Must be responsive (no horizontal scrolls on any viewport)
 - [x] Must get no errors or warnings from the HTML5 Validator
 - [x] Must have realistic content. Your site has to be useful in some way, no lorem ipsum.

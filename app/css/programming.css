@@ -37,7 +37,7 @@ body {
   margin: 15px 0;
 }
 
-.container .card .imgBx {
+.container .card .img-bx {
   position: absolute;
   top: 0;
   left: 0;
@@ -52,7 +52,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.container .card:hover .imgBx {
+.container .card:hover .img-bx {
   width: 150px;
   height: 150px;
   left: -75px;
@@ -61,7 +61,7 @@ body {
   background: #62cdff;
 }
 
-.container .card .imgBx:before {
+.container .card .img-bx:before {
   content: attr(data-text);
   position: absolute;
   bottom: 0;
@@ -73,16 +73,16 @@ body {
   font-weight: 700;
 }
 
-.container .card:hover .imgBx:before {
+.container .card:hover .img-bx:before {
   content: none;
 }
 
-.container .card .imgBx img {
+.container .card .img-bx img {
   max-width: 100px;
   transition: 0.5s ease-in-out;
 }
 
-.container .card:hover .imgBx img {
+.container .card:hover .img-bx img {
   max-width: 75px;
 }
 
@@ -143,23 +143,23 @@ body {
     height: auto;
   }
 
-  .container .card .imgBx {
+  .container .card .img-bx {
     position: relative;
   }
 
-  .container .card .imgBx,
-  .container .card:hover .imgBx {
+  .container .card .img-bx,
+  .container .card:hover .img-bx {
     width: 100%;
     height: 100%;
     left: 0;
   }
 
-  .container .card .imgBx:before {
+  .container .card .img-bx:before {
     content: none;
   }
 
-  .container .card .imgBx img,
-  .container .card:hover .imgBx img {
+  .container .card .img-bx img,
+  .container .card:hover .img-bx img {
     max-width: 80px;
     margin: 15px;
   }
