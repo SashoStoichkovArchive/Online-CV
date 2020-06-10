@@ -9,18 +9,18 @@ The main purpose of this project is to become personal online CV for me to use i
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
 
 
-## This site is hosted on ...
+## This site is hosted on https://online-cv-100ichkov.herokuapp.com/
 ![Hosted on Heroku](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png "Hosted on Heroku")
 
 <details><summary>Requirements</summary>
 
-### Must use:
+## Must use:
 1. - [x] Gulp build setup
 2. - [x] Sass for source files
 3. - [x] If JS - ES6+ with Babel
 4. - [x] Flex for layouts
 
-### Requirements
+## Requirements
 - [x] Host the code as on GitHub
 - [x] Host the site itself on free services like github sites for easy preview
 - [ ] Must style at least 5 different layouts for the site - currently having 4
@@ -34,7 +34,7 @@ The main purpose of this project is to become personal online CV for me to use i
 - [x] Must have proper README.md in the repository that explains the project and provides a screenshot from the homepage.
 - [x] Class names must be lower case, dash separated
 
-### Bonus points:
+## Bonus points:
 Bonus points will add to your final score if you are off by a little:
 - [x] JS interactivity (in a well written JS code).
 - [x] No jQuery used, just vanilla JS
