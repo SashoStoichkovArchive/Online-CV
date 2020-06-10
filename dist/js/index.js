@@ -1,1 +1,1 @@
-function toggle(){document.getElementById("sec").classList.toggle("active"),document.getElementById("navigation").classList.toggle("active")}
+function toggle(){document.getElementById("sec").classList.toggle("active"),document.getElementsByClassName("navigation")[0].classList.toggle("active")}
