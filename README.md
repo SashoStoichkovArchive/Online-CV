@@ -6,6 +6,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ## Screenshots
 ![Landing page](./screenshots/landing_page.png "Landing page")
 ![Programming skills](./screenshots/programming_skills_page.png "Programming skills")
+![Programming skills - WEB](./screenshots/programming_web.png "Programming skills - WEB")
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
 
 
