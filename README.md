@@ -3,15 +3,15 @@
 ## Purpose
 The main purpose of this project is to become personal online CV for me to use in my future career. I'll be adding more information about me and about everything I do. I could also add a BLOG section.
 
+## This site is hosted on https://online-cv-100ichkov.herokuapp.com/
+![Hosted on Heroku](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png "Hosted on Heroku")
+
+
 ## Screenshots
 ![Landing page](./screenshots/landing_page.png "Landing page")
 ![Programming skills](./screenshots/programming_skills_page.png "Programming skills")
 ![Programming skills - WEB](./screenshots/programming_web.png "Programming skills - WEB")
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
-
-
-## This site is hosted on https://online-cv-100ichkov.herokuapp.com/
-![Hosted on Heroku](https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png "Hosted on Heroku")
 
 <details><summary>Requirements</summary>
 
