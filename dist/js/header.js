@@ -1,1 +1,1 @@
-function toggle_menu(){document.getElementById("nav").classList.toggle("active")}
+function toggle_menu(){document.getElementsByTagName("nav")[0].classList.toggle("active")}
