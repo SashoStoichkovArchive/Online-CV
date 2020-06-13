@@ -16,3 +16,9 @@ body::-webkit-scrollbar {
 .entry-content {
 	margin-top: 50px;
 }
+
+@media (max-width: 1240px) {
+	.entry-content {
+		min-width: 100vw;
+	}
+}
