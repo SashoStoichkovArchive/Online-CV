@@ -17,7 +17,15 @@ body::-webkit-scrollbar {
   margin-top: 50px;
 }
 
+.entry-content.inactive {
+  display: none;
+}
+
 @media (max-width: 1240px) {
+  body {
+    min-height: 100%;
+  }
+
   .entry-content {
     min-width: 90vw;
   }
