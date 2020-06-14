@@ -13,7 +13,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ![Programming skills - WEB](./screenshots/programming_web.png "Programming skills - WEB")
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
 
-<details><summary>Requirements</summary>
+<details open><summary>Requirements</summary>
 
 ## Must use:
 1. - [x] Gulp build setup

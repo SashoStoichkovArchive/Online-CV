@@ -7,13 +7,107 @@ body {
 	min-height: 100vh;
 	background: url('../images/backgrounds/me.jpg');
 	background-size: cover;
-	display: flex;
-	align-items: center;
+	display: grid;
+	place-items: center;
 	-webkit-tap-highlight-color: transparent;
+}
+
+.card {
+	box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.2);
+	margin-top: 50px;
+	max-width: 80vw;
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	background: #36db19;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	transition: 0.5s ease-in;
+}
+
+.profile-image {
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.profile-name {
+	font-size: 2em;
+}
+
+.profile-name::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 3em;
+	background: white;
+	margin: 0.5em auto;
+	opacity: 0.5;
+}
+
+.profile-position {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	letter-spacing: 2.5px;
+	font-weight: 600;
+	margin-bottom: 2em;
+}
+
+.profile-body {
+	opacity: 0.8;
+	margin-bottom: 0;
+}
+
+.social-list {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	margin: 0.3em auto;
+	padding: 0;
+	list-style: none;
+}
+
+.social-list .social-link {
+	opacity: 0.5;
+}
+
+.social-list .social-link:hover,
+.social-list .social-link:focus {
+	opacity: 1;
+}
+
+.social-list .social-link a img {
+	width: 40px;
 }
 
 @media (max-width: 1240px){
 	body {
 		background-position: center top;
+	}
+}
+
+@media (min-width: 770px) {
+	.card {
+		flex-direction: row;
+		max-width: 60vw;
+	}
+
+	.profile-sidebar {
+		margin-left: 20px;
+	}
+
+	.profile-main {
+		text-align: left;
+		margin-left: 3em;
+		font-size: 1.1em;
+	}
+
+	.profile-body {
+		opacity: 1;
+	}
+
+	.profile-name::after {
+		margin-left: 0;
 	}
 }
