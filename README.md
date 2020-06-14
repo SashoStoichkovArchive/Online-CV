@@ -9,6 +9,7 @@ The main purpose of this project is to become personal online CV for me to use i
 
 ## Screenshots
 ![Landing page](./screenshots/landing_page.png "Landing page")
+![About Me page](./screenshots/about_me_page.png "About Me page")
 ![Programming skills](./screenshots/programming_skills_page.png "Programming skills")
 ![Programming skills - WEB](./screenshots/programming_web.png "Programming skills - WEB")
 ![Conatct Me](./screenshots/contact_me_page.png "Conatct Me")
@@ -24,7 +25,7 @@ The main purpose of this project is to become personal online CV for me to use i
 ## Requirements
 - [x] Host the code as on GitHub
 - [x] Host the site itself on free services like github sites for easy preview
-- [ ] Must style at least 5 different layouts for the site - currently having 4
+- [x] Must style at least 5 different layouts for the site
 - [x] Must have a page that showcases styles for standard HTML elements
 - [ ] Must have two or more levels deep drop down menu in the header
 - [x] Must be responsive (no horizontal scrolls on any viewport)
